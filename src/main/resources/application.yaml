@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.8.147:3306/big_event
+    username: big_event
+    password: 123456789
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启下划线和台风命名的封装
